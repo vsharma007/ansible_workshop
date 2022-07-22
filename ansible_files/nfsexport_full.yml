@@ -20,6 +20,7 @@
       state: present
       policy_name: ansible_volume_policy
       client_match: 192.168.0.0/24
+      rule_index: 1
       ro_rule: sys
       rw_rule: sys
       super_user_security: sys
